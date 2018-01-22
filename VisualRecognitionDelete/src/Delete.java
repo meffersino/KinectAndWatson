@@ -15,14 +15,14 @@ public class Delete {
         service = new VisualRecognition(VisualRecognition.VERSION_DATE_2016_05_20);
 
         service.setApiKey("fb4201a556bd26be9ad01fef1c95bc23f3fb3aed");
-        String fileName = "C:/Users/Michael/Documents/Uni/MEng/Code/save_files/classifierIDSave.txt";
+        String directory = "C:/Users/Michael/Documents/Uni/MEng/Code/KinectAndWatson/";
 
         try {
-            PrintWriter writer = new PrintWriter(fileName);
+            PrintWriter writer = new PrintWriter(directory + "save_files/classifierIDSave.txt");
 
         } catch (FileNotFoundException e) {
             System.out.println(
-                    "Unable to open file '" + fileName + "'");
+                    "Unable to open file '" + directory + "'");
         }
 
 
