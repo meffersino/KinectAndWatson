@@ -11,7 +11,7 @@ public class Classify {
 
     public static void main(String[] args) {
 
-        String directory = "C:/Users/Michael/Documents/Uni/MEng/Code/";
+        String directory = "C:/Users/Michael/Documents/Uni/MEng/Code/KinectAndWatson/";
         File positiveExampleOne = new File(directory + "Images/test1.jpg");
         File negativeExampleOne = new File(directory + "Images/test2.jpg");
 
