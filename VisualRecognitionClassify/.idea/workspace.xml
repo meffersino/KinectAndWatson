@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d21eead-992d-4fc8-87c7-12931c4973b0" name="Default" comment="Updated directory">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Classify.java" afterPath="$PROJECT_DIR$/src/Classify.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../VisualRecognitionSetup/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VisualRecognitionSetup/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../VisualRecognitionSetup/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VisualRecognitionSetup/src/Setup.java" afterPath="$PROJECT_DIR$/../VisualRecognitionSetup/src/Setup.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +104,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VisualRecognitionSetup" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -232,12 +232,12 @@
       <updated>1516621727358</updated>
       <workItem from="1516621730048" duration="2685000" />
       <workItem from="1516632564415" duration="61000" />
-      <workItem from="1516632789906" duration="87000" />
+      <workItem from="1516632789906" duration="275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2833000" />
+    <option name="totallyTimeSpent" value="3021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />

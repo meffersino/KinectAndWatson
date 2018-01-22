@@ -19,7 +19,7 @@ public class Setup {
 
         service.setApiKey("fb4201a556bd26be9ad01fef1c95bc23f3fb3aed");
 
-        String directory = "C:/Users/Michael/Documents/Uni/MEng/Code/";
+        String directory = "C:/Users/Michael/Documents/Uni/MEng/Code/KinectAndWatson/";
         try {
             CreateClassifierOptions createClassifierOptions = new CreateClassifierOptions.Builder()
                     .name("table")
