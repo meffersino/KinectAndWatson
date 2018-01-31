@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VisualRecognitionClassify.iml" filepath="$PROJECT_DIR$/VisualRecognitionClassify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VisualRecognition.iml" filepath="$PROJECT_DIR$/VisualRecognition.iml" />
     </modules>
   </component>
 </project>

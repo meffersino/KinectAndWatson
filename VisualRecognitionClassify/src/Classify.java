@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Classify {
     private static VisualRecognition service;
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
         String directory = "C:/Users/Michael/Documents/Uni/MEng/Code/KinectAndWatson/";
         File positiveExampleOne = new File(directory + "Images/test1.jpg");
@@ -26,9 +26,24 @@ public class Classify {
             System.out.println("No classifier ID present");
         }
 
+    }*/
+
+    public Classify(VisualRecognition newService) {
+        service = newService;
+        String directory = "C:/Users/Michael/Documents/Uni/MEng/Code/KinectAndWatson/";
+        File positiveExampleOne = new File(directory + "Images/test1.jpg");
+        File negativeExampleOne = new File(directory + "Images/test2.jpg");
+
+        ArrayList<String> fileContents = readFile(directory + "save_files/classifierIDSave.txt");
+        int fileContentsLength = fileContents.size();
+        if(fileContentsLength > 0) {
+            classifyImage(positiveExampleOne, fileContents.get(fileContentsLength-1));
+        } else {
+            System.out.println("No classifier ID present");
+        }
     }
 
-    private static ArrayList<String> readFile(String fileName) {
+    private ArrayList<String> readFile(String fileName) {
         String line;
         ArrayList<String> contents = new ArrayList<>();
         try {
@@ -54,7 +69,7 @@ public class Classify {
         return null;
     }
 
-    private static void classifyImage(File inputFile, String classifierID) {
+    private void classifyImage(File inputFile, String classifierID) {
         try {
             ClassifyOptions options = new ClassifyOptions.Builder()
                     .imagesFile(inputFile)
@@ -62,6 +77,7 @@ public class Classify {
                     .build();
             ClassifiedImages result = service.classify(options).execute();
             System.out.println(result);
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
