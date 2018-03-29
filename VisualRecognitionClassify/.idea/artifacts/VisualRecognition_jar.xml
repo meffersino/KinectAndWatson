@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="VisualRecognition:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/VisualRecognition_jar</output-path>
+    <root id="archive" name="VisualRecognition.jar">
+      <element id="module-output" name="VisualRecognition" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../VisualRecognitionSetup/lib/java-sdk-4.0.0-jar-with-dependencies.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

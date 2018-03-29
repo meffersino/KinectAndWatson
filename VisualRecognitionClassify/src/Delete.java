@@ -22,9 +22,9 @@ public class Delete {
         }
     }*/
 
-    public Delete (VisualRecognition newService) {
+    public Delete (VisualRecognition newService, String newDirectory) {
         service = newService;
-        String directory = "C:/Users/Michael/Documents/Uni/MEng/Code/KinectAndWatson/";
+        String directory = newDirectory;
 
         try {
             PrintWriter writer = new PrintWriter(directory + "save_files/classifierIDSave.txt");

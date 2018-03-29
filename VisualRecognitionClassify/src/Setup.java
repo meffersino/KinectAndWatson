@@ -46,9 +46,9 @@ public class Setup {
         }
     }*/
 
-    public Setup(VisualRecognition newService) {
+    public Setup(VisualRecognition newService, String newDirectory) {
         service = newService;
-        String directory = "C:/Users/Michael/Documents/Uni/MEng/Code/KinectAndWatson/";
+        String directory = newDirectory;
         try {
             CreateClassifierOptions createClassifierOptions = new CreateClassifierOptions.Builder()
                     .name("table")
@@ -65,11 +65,13 @@ public class Setup {
                 writer = new BufferedWriter(new OutputStreamWriter(
                         new FileOutputStream(fileName), "utf-8"));
                 writer.write(table.getClassifierId());
+                System.out.println("Classifier ID: " + table.getClassifierId());
             } catch (IOException ex) {
                 ex.printStackTrace();
             } finally {
                 try {
                     writer.close();
+                    System.out.println("Setup.java: File closed successfully");
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 }

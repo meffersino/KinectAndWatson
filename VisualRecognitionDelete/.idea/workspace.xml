@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ba8f258-8fac-4832-99e2-f14ab40544d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../VisualRecognitionClassify/src/Delete.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../VisualRecognitionClassify/src/Initialise.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../VisualRecognitionClassify/src/Setup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../VisualRecognitionClassify/VisualRecognitionClassify.iml" afterPath="$PROJECT_DIR$/../VisualRecognitionClassify/VisualRecognition.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VisualRecognitionSetup/out/production/VisualRecognitionSetup/Setup.class" afterPath="$PROJECT_DIR$/../VisualRecognitionSetup/out/production/VisualRecognitionSetup/Setup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VisualRecognitionClassify/.idea/modules.xml" afterPath="$PROJECT_DIR$/../VisualRecognitionClassify/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VisualRecognitionClassify/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../VisualRecognitionClassify/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VisualRecognitionClassify/src/Classify.java" afterPath="$PROJECT_DIR$/../VisualRecognitionClassify/src/Classify.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VisualRecognitionClassify/src/Initialise.java" afterPath="$PROJECT_DIR$/../VisualRecognitionClassify/src/Initialise.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VisualRecognitionClassify/src/Setup.java" afterPath="$PROJECT_DIR$/../VisualRecognitionClassify/src/Setup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VisualRecognitionSetup/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../VisualRecognitionSetup/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../save_files/classifierIDSave.txt" afterPath="$PROJECT_DIR$/../save_files/classifierIDSave.txt" />
     </list>
@@ -245,7 +238,7 @@
       <updated>1516544023241</updated>
       <workItem from="1516544025842" duration="749000" />
       <workItem from="1516633183253" duration="71000" />
-      <workItem from="1517394732395" duration="89000" />
+      <workItem from="1517394732395" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary="Update Directory">
       <created>1516633240664</created>
@@ -258,7 +251,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="909000" />
+    <option name="totallyTimeSpent" value="1424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
